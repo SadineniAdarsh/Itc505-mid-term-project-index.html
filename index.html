@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Ancient Run Adventure</title>
+</head>
+<body>
+    <header>
+        <h1>Ancient Run Adventure</h1>
+    </header>
+    <main>
+        <div id="story-text">Welcome to the Ancient Run Adventure!</div>
+        <div id="choices">
+            <button id="choice-btn">Choose</button>
+        </div>
+        <div id="image-section">
+            <img id="story-image" src="Temple_Run.jpg" alt="Ancient Run Image">
+        </div>
+        <button id="restart-btn" onclick="startGame()">Restart</button>
+    </main>
+    <section id="addendum">
+        <h2>Addendum</h2>
+        <p>
+            In crafting the Ancient Run Adventure, my goal was to immerse players in an enthralling and dynamic experience. This involved meticulously outlining story stages, devising choices that wield significant influence on the narrative, and integrating human encounters to infuse the adventure with depth and intrigue."
+        </p>
+        <p>
+            We approached the Ancient Run Adventure with a focus on creativity, handpicking imagery, meticulously crafting the storyline, and refining the user interface design. Every stage and choice underwent thoughtful deliberation, aiming to foster deep immersion and captivate players throughout the storyline."
+        </p>
+        <p>
+            We faced hurdles, particularly in balancing the intricate branching storylines and maintaining smooth transitions between stages. To tackle these obstacles, we engaged in iterative testing and honed the JavaScript logic, ensuring a seamless experience for players."
+        </p>
+        <p>
+            We garnered valuable insights throughout this journey, emphasizing the significance of upholding a cohesive narrative while empowering player agency. The dynamic 'Choose Your Own Adventure' genre demands meticulous planning to deliver a truly gratifying user experience."
+
+
+        </p>
+        <footer>
+            <p>Last updated: 
+                <span id="lastModified"></span>
+            </p>
+        </p>
+        </footer>
+        <script src="script.js"></script><!-- Link your JavaScript file here -->
+        <script type="text/javascript">
+             var x = document.lastModified;
+             document.getElementById('lastModified').textContent = x;
+        </script>
+    </body>
+    </html>
+    </section>
+</body>
+</html>
